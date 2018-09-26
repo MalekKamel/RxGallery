@@ -1,6 +1,5 @@
 
 
-
 # RxGallery
 ###  RxJava wrapper for Android Gallery & Camera.
 #### With RxGallery you get rid of Activity.onActivityResult() and receive the result on the call site. Also,  no runtime permissions are required
@@ -27,11 +26,16 @@ maven {
 }
 ```
 
-
+# Usage
+```java
+  new RxGallery()  
+        .captureImage(fragmentActivity)  
+        .subscribe(bitmap -> imageView.setImageBitmap(bitmap));
+```
 ## Pick Image
 ```java
      new RxGallery()
-         .image(fragmentActivity, )
+         .image(fragmentActivity)
          .subscribe(result -> {
            // Handle logic here
          };
@@ -71,7 +75,7 @@ maven {
 ## Pick Multiple Audio Files
 ```java
      new RxGallery()
-           .multipleAudio(fragmentActivity, MimeType.VIDEO, MimeType.AUDIO)
+           .multipleAudio(fragmentActivity)
            .subscribe(result -> {
               // Handle logic here
            };
@@ -80,7 +84,7 @@ maven {
 ## Request By Type
 #### Yo can request any type by 
 ```java
-     new RxGallery(fragmentActivity)
+     new RxGallery(fragmentActivity, MimeType.VIDEO, MimeType.AUDIO)
          .requestByType()
          .subscribe(result -> {
             // Handle logic here
@@ -89,7 +93,7 @@ maven {
 
 ## Request Multiple By Type
 ```java
-     new RxGallery(fragmentActivity)
+     new RxGallery(fragmentActivity, MimeType.VIDEO, MimeType.AUDIO)
            .requestMultipleByType()
            .subscribe(result -> {
              // Handle logic here
