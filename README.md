@@ -3,7 +3,7 @@
 
 # RxGallery
 ###  RxJava wrapper for Android Gallery & Camera.
-### With RxGallery you get rid of Activity.onActivityResult() and receive the result on the call site. Also,  no runtime permissions are required
+#### With RxGallery you get rid of Activity.onActivityResult() and receive the result on the call site. Also,  no runtime permissions are required
 
 # Features
 
