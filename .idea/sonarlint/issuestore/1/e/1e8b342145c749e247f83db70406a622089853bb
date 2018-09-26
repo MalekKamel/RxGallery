@@ -1,0 +1,13 @@
+
+nsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ñš«²ùÿÿÿÿ8è®“Šá,
+Vsquid:S1854G"8Remove this useless assignment to local variable "uris".(¬ýëÞ8ûÌÿ‰á,
+ksquid:UselessImportCheck";Remove this unused import 'android.graphics.BitmapFactory'.(âàºÍûÿÿÿÿ8¤¾—Šá,
+csquid:UselessImportCheck
+"8Remove this unused import 'android.provider.MediaStore'.(ãçšþ8¤¾—Šá,
+nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(Óµóõùÿÿÿÿ8è®“Šá,
+\"squid:SwitchLastCaseIsDefaultCheckE""Add a default case to this switch.(×ö³–úÿÿÿÿ8¹Ê¬‡á,
+dsquid:UselessImportCheck"4Remove this unused import 'android.database.Cursor'.(ŽÔäåúÿÿÿÿ8¤¾—Šá,
+usquid:S1450"WRemove the "callback" field and declare it as a local variable in the relevant methods.(Ñ³‘ô8›ëò†á,
+^squid:UselessImportCheck"4Remove this unused import 'android.graphics.Bitmap'.(¾ì8¤¾—Šá,
+V"squid:SwitchLastCaseIsDefaultCheck$""Add a default case to this switch.(¿’öV8Ñîõ†á,
+Jsquid:S1068",Remove this unused "callback" private field.(Ñ³‘ô8›ëò†á,

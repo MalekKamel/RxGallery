@@ -1,0 +1,6 @@
+
+%squid:RedundantThrowsDeclarationCheck"fRemove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.(σοτί8ί»Π‰α,
+csquid:S1226"FIntroduce a new variable instead of reusing the parameter "outputUri".(…Ψ·X8½Ρ‰α,
+dsquid:S1226"FIntroduce a new variable instead of reusing the parameter "outputUri".(Β§…Ζ8½Ρ‰α,
+%squid:RedundantThrowsDeclarationCheck"fRemove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.(ΝΝβ8έ‰α,
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(ήτ™κ8ÿάΰ‰α,
