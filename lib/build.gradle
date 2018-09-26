@@ -4,18 +4,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'android'
-    bintrayName = 'rxlocationsettingsrequest'
+    bintrayName = 'RxGallery'
 
     publishedGroupId = 'com.sha.kamel'
     libraryName = 'RxGallery'
-    artifact = 'rx-location-settings-request'
+    artifact = 'rx-gallery'
 
-    libraryDescription = 'RxJava wrapper for Android LocationSettingsRequest used to enable GPS.'
+    libraryDescription = 'RxJava wrapper for Android Gallery and Camera.'
 
     siteUrl = 'https://github.com/ShabanKamell/RxGallery'
     gitUrl = 'https://github.com/ShabanKamell/RxGallery.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.0'
 
     developerId = 'shaban'
     developerName = 'shaban kamel'
@@ -82,14 +82,10 @@ dependencies {
     api deps.rxjava
     javadocDeps deps.rxjava
 
-    api deps.google.locations
-    javadocDeps deps.google.locations
-
     api deps.java8_reactive_streams
     javadocDeps deps.java8_reactive_streams
 
     implementation deps.rx.permissions
-
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
