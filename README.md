@@ -27,20 +27,7 @@ maven {
 }
 ```
 
-# Usage
-```java
- new RxLocation()
-                .onFailure(failMessage -> tv_location.setText(failMessage.getMessage()))
-                .retrieveCurrentLocation(MainActivity.this)
-                .subscribe(location -> {
-                            String msg = "lat = " +
-                                    location.getLatitude() +
-                                    ", lng = " +
-                                    location.getLongitude();
-                            tv_location.setText(msg);
-                        }
-                );
-```
+
 ## Pick Image
 ```java
      new RxGallery()
